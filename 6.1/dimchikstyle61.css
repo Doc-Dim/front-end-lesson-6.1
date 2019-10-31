@@ -1,0 +1,218 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+
+.conteiner-two {
+  max-width: auto;
+  margin: 40px;
+  
+ }
+
+
+table {
+  border: 1px solid black;
+  height: 700px;
+  width: 900px;
+  background-color: #ffffce8a;
+  margin: 0 auto;
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 18px;
+  
+ }
+
+
+.turn {
+  transform: rotate(270deg);
+  font-size: 14px;
+}
+ h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
+
+
+ td {
+  border: 1px solid black;
+  height: 40px;
+  width: 100px;
+  padding: 2px;
+ }
+
+.pink {
+  background: #f5e5e8;
+}
+
+.green {
+  background: #58b558;
+}
+
+.blue {
+  background: #8686ff;
+}
+
+.yellow {
+  background: yellow;
+}
+
+
+.two {
+  margin: 15px;
+}
+
+.table-two {
+  border: 1px solid black;
+  height: 140px;
+  width: 800px;
+  background-color: #ffffce8a;
+  margin: 0 auto;
+
+
+}
+
+
+ .row {
+  display: flex;
+  height: 80%;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+ }
+
+ .column {
+  display: flex;
+  flex: 1;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+span {
+  font-size: 14px
+}
+small {
+  font-size: 12px;
+}
+strong {
+  font-size: 14px;
+}
+
+.column_right {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+
+
+
+.row_2 {
+  display: flex;
+  height: 80%;
+  flex-flow: row-reverse nowrap;
+  justify-content: space-between;
+ }
+
+ .column_2 {
+  display: flex;
+  flex: 1;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+span {
+  font-size: 15px
+}
+small {
+  font-size: 13px;
+}
+strong {
+  font-size: 18px;
+}
+
+.column_left {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+
+
+
+.table__two {
+  border: 1px solid black;
+  /*height: 30px;
+  width: 60px;*/
+  padding: 2px;
+}
+
+.top {
+  align-items: flex-start;
+}
+.bottom {
+  align-items: flex-end;
+  align-self: flex-end;
+  text-align: right;
+  width: 50%;
+  margin-right: 5px;
+}
+
+
+.with-border {
+  padding: 2px;
+  width: 60%;
+  border: 1px solid black;
+}
+
+.column_ex {
+  display: flex;
+  height: 100%;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.line-1 {
+  position: absolute;
+  width: 1.5px;
+  height: 22px;
+  background-color: black;
+  top: 36px;
+  left: 48px;
+}
+
+.line-2 {
+  position: absolute;
+  width: 1.5px;
+  height: 22px;
+  background-color: black;
+  top: 36px;
+  right: 39px;
+}
+
+.line-3 {
+  position: absolute;
+  width: 1.5px;
+  height: 41px;
+  background-color: black;
+  right: 51px;
+  bottom: 39px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
